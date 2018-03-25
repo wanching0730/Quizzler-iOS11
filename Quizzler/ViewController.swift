@@ -60,7 +60,7 @@ class ViewController: UIViewController {
     func checkAnswer() {
         
         let correctAnswer = allQuestions.list[questionNumber].answer
-        
+
         if correctAnswer == pickedAnswer {
             ProgressHUD.showSuccess("Correct!")
             score += 1
